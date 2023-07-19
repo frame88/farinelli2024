@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #5296A5;
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.341);
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.makeurmenu {
+    // background-image: url('../src/assets/img/dwinanda-nurhanif-mujito-pKT5Mg16w_w-unsplash.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.website {
+    // background-image: url('../src/assets/img/austin-neill-5CusMrOVwqI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
