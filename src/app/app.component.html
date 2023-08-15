@@ -8,11 +8,12 @@
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
   <div class="section"><app-home></app-home></div>
   <div class="section" (click)="fullpage_api.moveSectionDown()"><app-iam></app-iam></div>
-  <div class="section red">
-    <div class="slide blue">Slide 2.1</div>
-    <div class="slide red">Slide 2.2</div>
-    <div class="slide blue">Slide 2.3</div>
+  <div class="section">
+    <div class="slide"><app-services></app-services></div>
+    <div class="slide"><app-first></app-first></div>
+    <div class="slide"><app-second></app-second></div>
+    <div class="slide"><app-third></app-third></div>
   </div>
-  <div class="section">Some section4</div>
+  <div class="section"></div>
   <!-- <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div> -->
 </div>
