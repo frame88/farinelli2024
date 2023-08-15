@@ -6,20 +6,19 @@
 #menu li {
     display: inline-block;
     margin: 10px;
-    color: #000;
+    color: white;
 }
 
 #menu li.active {
-    color: black;
-}
-
-#menu li a {
-    text-decoration: none;
-    color: #000;
-}
+    color: white;}
+    
+    #menu li a {
+        text-decoration: none;
+        background-color: #ffad8c8f;
+        color: white;}
 
 #menu li.active a:hover {
-    color: #000;
+    color: white;
 }
 
 #menu li:hover {
@@ -33,8 +32,8 @@
 }
 
 #menu li.active a {
-    color: black;
-    background: #006b7151;
+    color: white;
+    background: #FFA07A;
 }
 
 #menu {
