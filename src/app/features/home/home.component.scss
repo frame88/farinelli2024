@@ -16,7 +16,7 @@
     margin-left: calc(50% - 200px);
 }
 
-#wave-home {
+#wave {
     position: absolute;
     bottom: 0;
     z-index: 2;
@@ -63,7 +63,7 @@ button:hover {
 }
 
 @media (max-width: 575.98px) {
-    #wave-home {
-        width: 450%;
-    }
+    // #wave {
+    //     width: 450%;
+    // }
 }

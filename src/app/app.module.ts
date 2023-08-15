@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { HomeComponent } from './features/home/home.component';
+import { IamComponent } from './features/iam/iam.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    IamComponent
   ],
   imports: [
     BrowserModule,
