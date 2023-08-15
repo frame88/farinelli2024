@@ -18,7 +18,7 @@ export class AppComponent {
 
       // fullpage options
       licenseKey: '5L8DI-V6OKJ-HNS0H-5P2G7-YNYPN',
-      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+      anchors: ['home', 'secondPage', 'chisono', 'servizi', 'contatti'],
       menu: '#menu',
 
       // fullpage callbacks

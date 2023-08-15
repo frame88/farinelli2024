@@ -1,39 +1,69 @@
-ul {
-    list-style-type: none;
-    padding: 0;
+.nome,
+.cognome {
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
-li {
-    display: inline-block;
-    margin: 0 10px;
+.cognome {
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 
-a {
-    color: #5296A5;
-    font-weight: 600;
+#verteb {
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    margin-left: calc(50% - 200px);
 }
 
-img {
-    width: 100px;
-    margin-bottom: 2rem;
+#wave-home {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
 }
 
-#menu {
-    background-color: rgba(0, 0, 0, 0.341);
-    height: 7vh;
-    display: flex;
-    align-items: center;
-    width: 100%
+
+//BOTTONE
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
 }
 
-.makeurmenu {
-    // background-image: url('../src/assets/img/dwinanda-nurhanif-mujito-pKT5Mg16w_w-unsplash.jpg');
-    background-position: bottom;
-    background-size: cover;
+button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
 }
 
-.website {
-    // background-image: url('../src/assets/img/austin-neill-5CusMrOVwqI-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
+button:hover::before {
+    width: 105%;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    #wave-home {
+        width: 450%;
+    }
 }

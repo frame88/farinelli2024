@@ -1,0 +1,56 @@
+.section {
+    text-align: center;
+    font-size: 3em;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+}
+
+#menu li.active {
+    color: black;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu li.active a:hover {
+    color: #000;
+}
+
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+
+#menu li.active a {
+    color: black;
+    background: #006b7151;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 575.98px) {
+    .section {
+        text-align: left;
+        font-size: inherit;
+    }
+}

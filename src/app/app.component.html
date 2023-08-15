@@ -1,3 +1,10 @@
+<ul id="menu">
+  <li data-menuanchor="home"><a href="#home">Home</a></li>
+  <li data-menuanchor="chisono"><a href="#chisono">Chi sono</a></li>
+  <li data-menuanchor="servizi"><a href="#servizi">Servizi</a></li>
+  <li data-menuanchor="contatti"><a href="#contatti">Contatti section</a></li>
+</ul>
+
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
   <div class="section"><app-home></app-home></div>
   <div class="section" (click)="fullpage_api.moveSectionDown()">Some section2</div>
@@ -6,5 +13,6 @@
     <div class="slide red">Slide 2.2</div>
     <div class="slide blue">Slide 2.3</div>
   </div>
-  <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div>
+  <div class="section">Some section4</div>
+  <!-- <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div> -->
 </div>
