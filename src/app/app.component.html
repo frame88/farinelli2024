@@ -1,6 +1,6 @@
 <ul id="menu">
-  <li data-menuanchor="home"><a href="#home">Home</a></li>
-  <li data-menuanchor="chisono"><a href="#chisono">Chi sono</a></li>
+  <li data-menuanchor="home"><a href="#home"><img style="width: 16px" src="../assets/images/house-solid.svg" alt="icona home"></a></li>
+  <li data-menuanchor="chisono"><a href="#chisono" style="white-space: nowrap;">Chi sono</a></li>
   <li data-menuanchor="servizi"><a href="#servizi">Servizi</a></li>
   <li data-menuanchor="contatti"><a href="#contatti">Contatti</a></li>
 </ul>
@@ -9,10 +9,19 @@
   <div class="section"><app-home></app-home></div>
   <div class="section" (click)="fullpage_api.moveSectionDown()"><app-iam></app-iam></div>
   <div class="section">
-    <div class="slide"><app-services></app-services></div>
-    <div class="slide"><app-first></app-first></div>
-    <div class="slide"><app-second></app-second></div>
-    <div class="slide"><app-third></app-third></div>
+    <div class="slide">
+      <app-services></app-services>
+    </div>
+    <div class="slide">
+      <app-first></app-first>
+      <img style="width: 200px; position: absolute; bottom: 0; left: 160px; z-index: -1; opacity: 0.5" src="../assets/images/physio1/19.jpg" alt="">
+    </div>
+    <div class="slide">
+      <app-second></app-second>
+    </div>
+    <div class="slide">
+      <app-third></app-third>
+    </div>
   </div>
   <div class="section"><app-contacts></app-contacts></div>
   <!-- <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div> -->

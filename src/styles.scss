@@ -10,13 +10,35 @@ $primary: #006C71;
     font-family: 'PT Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;    
+}
+
 .fp-tableCell {
     vertical-align: top;
 }
 
 .fp-controlArrow {
-    background-color: rgba(0, 0, 0, 0.183);
-    top: 55%
+    top: 55%;
+}
+
+.fp-controlArrow.fp-next {
+    right: 5px;
+    border-left-color: #006b712c;
+    border-width: 26.5px 0 26.5px 22px;
+    &:active {
+        transform: scale(0.8);    
+    }
+}
+.fp-controlArrow.fp-prev {
+    left: 5px;
+    border-right-color: #006b712c;
+    border-width: 26.5px 22px 26.5px 0;
+
+    &:active {
+        transform: scale(0.8);    
+    }
 }
 
 .separator {
@@ -387,6 +409,12 @@ ul {
 
 .pb0 {
     padding-bottom: 0rem !important;
+}
+.pb1 {
+    padding-bottom: 1rem !important;
+}
+.pb2 {
+    padding-bottom: 2rem !important;
 }
 
 .pb05 {

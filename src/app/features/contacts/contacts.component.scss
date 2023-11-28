@@ -12,5 +12,15 @@
 }
 
 .icon {
-    width: 65px;
+    width: 45px;
+}
+
+.contact-box {
+    &:active {
+        background-color: rgba(210, 210, 210, 0.067);
+    }
+}
+
+iframe {
+    border: none;
 }

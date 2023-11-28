@@ -7,6 +7,10 @@
     display: inline-block;
     margin: 10px;
     color: white;
+    &:active {
+        transform: scale(0.8);
+        transition-duration: .3s;
+    }
 }
 
 #menu li.active {
@@ -14,7 +18,7 @@
     
     #menu li a {
         text-decoration: none;
-        background-color: #ffad8c8f;
+        background-color: #ffad8c;
         color: white;}
 
 #menu li.active a:hover {
@@ -27,13 +31,13 @@
 
 #menu li a,
 #menu li.active a {
-    padding: 9px 18px;
+    padding: 9px 16px;
     display: block;
 }
 
 #menu li.active a {
     color: white;
-    background: #FFA07A;
+    background: #004B8D;
 }
 
 #menu {
@@ -53,3 +57,6 @@
         font-size: inherit;
     }
 }
+
+
+//Blu notte: #003366 Blu cielo: #007BB7 Blu pastello: #89CFF0 Blu petrolio: #004B8D Blu cobalto: #0047AB
