@@ -36,9 +36,9 @@
 form {
     display: flex; align-items: center;
     flex-direction: column;
-    margin-top: .7rem;
+    margin-top: 1rem;
     h3 { margin: 0; margin-bottom: .3rem; font-weight: 400;}
-    label { display: flex; flex-direction: column; text-align: start; margin-bottom: 2rem; width: 90vw;}
+    label { display: flex; flex-direction: column; text-align: start; margin-bottom: 1rem; width: 90vw;}
     input { 
         padding: .5rem; outline: none;
         &:focus { outline: none; } &:active { outline: none; } 
