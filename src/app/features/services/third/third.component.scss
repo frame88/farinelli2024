@@ -1,13 +1,5 @@
-#wave {
-    position: absolute;
-    top: 0;
-    z-index: 2;
-    width: 100vw;
-}
-
-.title {
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    text-transform: uppercase;
+@import '../sections.scss';
+.sec {
+    background-image: url('../../../../assets/images/physio1/18.png');
+    background-position-y: calc(80dvh - 95px);
 }

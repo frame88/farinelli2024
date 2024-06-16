@@ -12,7 +12,7 @@
 }
 
 .icon {
-    width: 45px;
+    width: 25px;
 }
 
 .contact-box {
@@ -21,6 +21,49 @@
     }
 }
 
-iframe {
-    border: none;
+.contacts {
+    height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    #map {
+        width: 100vw;
+        height: 25dvh;
+    }
+}
+
+
+form {
+    display: flex; align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    h3 { margin: 0; margin-bottom: .3rem; font-weight: 400;}
+    label { display: flex; flex-direction: column; text-align: start; margin-bottom: 2rem; width: 90vw;}
+    input { 
+        padding: .5rem; outline: none;
+        &:focus { outline: none; } &:active { outline: none; } 
+    }
+    button { width: 90vw; border: 0; padding: .3rem; background-color: #006C71; color: white}
+    
+}
+
+@media (max-width: 575.98px) {
+    form {margin-top: 3rem;}
+}
+
+.leutsi {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-top: 2px solid #17C3B2;
+
+    a {
+        letter-spacing: 2px;
+    }
 }

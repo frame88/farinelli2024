@@ -10,17 +10,17 @@
 }
 
 #verteb {
-    position: absolute;
-    z-index: 1;
-    width: 400px;
-    margin-left: calc(50% - 200px);
+    width: calc(100vw - 2rem);
+    margin: 1rem; margin-top: 0;
 }
 
-#wave {
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-}
+// #wave {
+//     z-index: 2;
+//     width: 100%!important;
+//     background-image: url('../../../assets/images/wave.svg');
+//     background-repeat: no-repeat;
+//     background-position: bottom;
+// }
 
 
 //BOTTONE
@@ -67,3 +67,4 @@ button:hover {
     //     width: 450%;
     // }
 }
+
